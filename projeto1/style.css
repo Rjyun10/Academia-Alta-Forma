@@ -1,0 +1,72 @@
+:root {
+  --primary: #0066cc;
+  --primary-light: #0099ff;
+  --black: #000000;
+  --silver: #c0c0c0;
+  --white: #ffffff;
+  --gradient-1: #000033;
+  --gradient-2: ;
+}
+header {
+  background-color: var(--black);
+  color: var(--primary);
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  letter-spacing: 1px;
+}
+.btn-search {
+  background-color: var(--primary);
+  color: var(--black);
+}
+.btn-search:hover {
+  background-color: var(--primary-light);
+  color: var(--white);
+  transform: scale(1.05);
+}
+.input-search {
+  background-color: var(--silver);
+}
+.input-search:focus {
+  box-shadow: 0 0 10px var(--primary);
+  background-color: var(--silver);
+}
+.nav-link {
+  color: var(--primary) !important;
+  font-size: larger;
+}
+.nav-link:hover {
+  color: var(--primary-light) !important;
+  transform: scale(1.05);
+}
+.navbar-toggler {
+  background-color: var(--primary-light);
+  border: solid 2px var(--primary);
+}
+.navbar-toggler:focus {
+  transform: scale(1.05);
+}
+
+.dropdown-menu {
+  background-color: var(--primary-light);
+}
+.dropdown-item {
+  background-color: var(--primary-light);
+  color: var(--black);
+}
+.dropdown-item:hover {
+  background-color: var(--primary);
+  color: var(--white);
+}
+
+.section-1,
+.section-2,
+.section-3 {
+  width: 100%;
+  height: 100vh;
+}
+.section-1 {
+}
+.section-2 {
+}
+.section-3 {
+  background-color: #0066cc;
+}
