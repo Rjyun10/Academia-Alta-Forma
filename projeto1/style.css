@@ -4,9 +4,11 @@
   --black: #000000;
   --silver: #c0c0c0;
   --white: #ffffff;
-  --gradient-1: #000033;
-  --gradient-2: ;
+
+  --secundary: #004285;
+  --secundary-light: #0058b0;
 }
+/* ============================= */
 header {
   background-color: var(--black);
   color: var(--primary);
@@ -44,19 +46,18 @@ header {
 .navbar-toggler:focus {
   transform: scale(1.05);
 }
-
 .dropdown-menu {
-  background-color: var(--primary-light);
+  background-color: var(--silver);
 }
 .dropdown-item {
-  background-color: var(--primary-light);
+  background-color: var(--silver);
   color: var(--black);
 }
 .dropdown-item:hover {
-  background-color: var(--primary);
-  color: var(--white);
+  background-color: var(--white);
+  color: var(--black);
 }
-
+/* ============================== */
 .section-1,
 .section-2,
 .section-3 {
@@ -64,9 +65,77 @@ header {
   height: 100vh;
 }
 .section-1 {
+  .bg-img {
+    background: linear-gradient(to top, var(--secundary), var(--primary-light));
+    height: 100vh;
+  }
+  .img-sct1 {
+    border: solid 2px var(--black);
+    border-radius: 5px;
+    box-shadow: 0 0 15px var(--white);
+  }
 }
 .section-2 {
+  .card {
+    background-color: var(--silver);
+    border: solid 5px var(--black);
+    border-radius: 10px;
+    margin: 50px;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    letter-spacing: 1px;
+  }
+  .card span {
+    text-shadow: 2px 2px 2px var(--black);
+    font-size: 60px;
+  }
+  .span-t {
+    color: var(--black);
+  }
+  .span-d {
+    color: var(--primary);
+  }
+  .img-sct2-1,
+  .img-sct2-2 {
+    width: 300px;
+    height: fit-content;
+    max-width: 100%;
+  }
+  .img-thumbnail {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0px 0px 2px var(--black);
+  }
+  ul {
+    list-style-type: none;
+  }
+  ul li {
+    position: relative;
+    padding-left: 20px;
+  }
+  ul li::before {
+    content: "✔";
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-weight: bold;
+  }
+  background: linear-gradient(to top, var(--primary-light), var(--secundary));
+  height: auto !important;
+  min-height: 100vh;
 }
 .section-3 {
-  background-color: #0066cc;
+  background: linear-gradient(to top, var(--secundary), var(--primary-light));
+}
+
+.texto-principal {
+  color: var(--black);
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  letter-spacing: 1px;
+  text-shadow: 3px 3px 5px var(--white);
+}
+.texto-secundario {
+  color: var(--black);
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  letter-spacing: 1px;
+  text-shadow: 0px 0px 5px var(--white);
 }
