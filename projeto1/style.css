@@ -2,6 +2,7 @@
   --primary: #0066cc;
   --primary-light: #0099ff;
   --black: #000000;
+  --black-15: #151515;
   --silver: #c0c0c0;
   --silver-ligth: #e1e1e1;
   --white: #ffffff;
@@ -160,23 +161,23 @@ header {
   color: var(--black);
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   letter-spacing: 1px;
-  text-shadow: 3px 3px 5px var(--white);
+  text-shadow: 2px 2px 5px var(--white);
 }
 .texto-secundario {
-  color: var(--black);
+  color: var(--primary-light);
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   letter-spacing: 1px;
-  text-shadow: 0px 0px 5px var(--white);
+  text-shadow: 2px 2px 2px var(--black);
+}
+.texto-descricao {
+  font-size: 20px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  padding: 10px;
 }
 
 footer {
-  .img-fluid {
-    width: auto;
-    height: 100px;
-  }
-
   .nav-link {
-    color: var(--primary) !important;
+    color: var(--silver-ligth) !important;
     font-size: larger;
   }
   .nav-link:hover {
@@ -192,6 +193,7 @@ footer {
   }
   .dropdown-menu {
     background-color: var(--silver);
+    text-shadow: none;
   }
   .dropdown-item {
     background-color: var(--silver);
@@ -200,6 +202,47 @@ footer {
   .dropdown-item:hover {
     background-color: var(--white);
     color: var(--black);
+  }
+  .fundo-footer {
+    background: var(--secundary);
+    color: var(--white);
+    text-shadow: 0 0 5px var(--black);
+    padding-top: 70px;
+  }
+  .fundo-parcerias {
+    border: solid 2px var(--black);
+  }
+  .img-maps {
+    max-width: 50%;
+    height: auto;
+    align-items: center;
+    border: solid 2px var(--black);
+    border-radius: 10px;
+  }
+  .redes-sociais {
+    text-decoration: none;
+    color: var(--primary-light);
+    text-shadow: 1px 1px 1px var(--black);
+    font-size: 20px;
+  }
+  .redes-sociais:hover {
+    color: var(--primary);
+  }
+  .endereco {
+    text-decoration: none;
+    color: var(--primary-light);
+  }
+  .endereco:hover {
+    color: var(--primary);
+  }
+  .img-logo-footer {
+    width: 180px;
+    height: 180px;
+  }
+  .bg-img-logo {
+    background: var(--black-15);
+    border: solid 2px var(--white);
+    border-radius: 5px;
   }
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   letter-spacing: 1px;
