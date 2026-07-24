@@ -80,7 +80,9 @@ header {
 .section-academia-3,
 .section-servico-1,
 .section-servico-2,
-.section-servico-3 {
+.section-servico-3,
+.section-servico-4,
+.section-servico-5 {
   width: 100%;
   height: 100vh;
 }
@@ -303,10 +305,55 @@ header {
 .section-servico-1 {
   background-image:
     linear-gradient(#000000bf, #00000066), url(imagens/bg-academia-secao3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  min-height: 100vh;
+  height: auto;
+  .img-servicos {
+    width: 300px;
+    height: auto;
+    border: solid 3px var(--secundary);
+    box-shadow: 0 0 5px var(--primary-light);
+  }
+  .texto-servico {
+    text-decoration: none;
+    color: var(--primary-light);
+  }
+}
+.section-servico-2,
+.section-servico-3,
+.section-servico-4,
+.section-servico-5 {
+  background-image:
+    linear-gradient(#000000bf, #00000066), url(imagens/bg-academia-secao2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  min-height: 100vh;
+  height: auto;
+  .img-servicos {
+    width: clamp(300px, 30vw, 500px);
+    height: auto;
+    border: solid 3px var(--secundary);
+    box-shadow: 0 0 5px var(--primary-light);
+  }
+  .card {
+    width: clamp(300px, 30vw, 500px);
+    color: var(--black);
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    letter-spacing: 1px;
+  }
 }
 .section-servico-2 {
 }
 .section-servico-3 {
+}
+.section-servico-4 {
+}
+.section-servico-5 {
 }
 
 /* ============================== */
@@ -346,6 +393,9 @@ header {
 /* ============================== */
 
 footer {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  letter-spacing: 1px;
+  color: var(--primary);
   .nav-link {
     color: var(--silver-ligth) !important;
     font-size: larger;
@@ -414,7 +464,7 @@ footer {
     border: solid 2px var(--white);
     border-radius: 5px;
   }
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  letter-spacing: 1px;
-  color: var(--primary);
+  strong {
+    letter-spacing: 3px !important;
+  }
 }
