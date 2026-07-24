@@ -10,9 +10,17 @@
   --secundary: #004285;
   --secundary-light: #0058b0;
 
-  --gradiente-r: linear-gradient(to right, #004285, #0066cc);
+  --garantir: #00c00a;
+  --garantir-hover: #00a008;
 }
 /* ============================= */
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* ============================== */
+
 header {
   .btn-search {
     background-color: var(--primary);
@@ -63,13 +71,23 @@ header {
 }
 
 /* ============================== */
-.section-1,
-.section-2,
-.section-3 {
+
+.section-home-1,
+.section-home-2,
+.section-home-3,
+.section-academia-1,
+.section-academia-2,
+.section-academia-3,
+.section-servico-1,
+.section-servico-2,
+.section-servico-3 {
   width: 100%;
   height: 100vh;
 }
-.section-1 {
+
+/* ============================== */
+
+.section-home-1 {
   .bg-img {
     background: linear-gradient(to top, var(--secundary), var(--primary-light));
     height: 100vh;
@@ -80,7 +98,7 @@ header {
     box-shadow: 0 0 15px var(--white);
   }
 }
-.section-2 {
+.section-home-2 {
   .card {
     background-color: var(--silver);
     border: solid 5px var(--black);
@@ -129,7 +147,10 @@ header {
   height: auto !important;
   min-height: 100vh;
 }
-.section-3 {
+.section-home-3 {
+  background: linear-gradient(to top, var(--secundary), var(--primary-light));
+  height: auto !important;
+  min-height: 100vh;
   .img-modalidades {
     height: 200px;
     max-width: 100%;
@@ -152,11 +173,154 @@ header {
     background: var(--silver-ligth);
     border: solid 2px var(--black);
   }
-  background: linear-gradient(to top, var(--secundary), var(--primary-light));
-  height: auto !important;
-  min-height: 100vh;
+  .titulo {
+    background: var(--secundary);
+    border: solid 3px var(--black);
+    width: 500px;
+    height: 100px;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 50px;
+    color: var(--black);
+    border-radius: 100px;
+  }
 }
 
+/* ============================== */
+
+.section-academia-1 {
+  background-image:
+    linear-gradient(#000000cc, #00000059), url(imagens/bg-academia.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+.section-academia-2 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  background-image: url(imagens/bg-academia-secao2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  min-height: 100vh;
+  height: auto;
+  .titulo-prop {
+    color: var(--white);
+    letter-spacing: 1px;
+    font-size: 50px;
+  }
+  .img-prop {
+    width: 150px;
+    height: 150px;
+    border: solid 3px var(--secundary);
+    border-radius: 50%;
+  }
+  .estilo-lista {
+    font-size: 30px;
+    color: var(--primary-light);
+  }
+
+  .texto-azul {
+    color: var(--primary-light);
+  }
+}
+.section-academia-3 {
+  background-image:
+    linear-gradient(#000000cc, #00000059), url(imagens/bg-academia-secao3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  min-height: 100vh;
+  height: auto;
+  .card {
+    background: var(--secundary);
+    border: solid 3px var(--black-15);
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px var(--primary-light);
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    color: var(--white);
+    text-shadow: 2px 2px 5px var(--black-15);
+    letter-spacing: 1px;
+    font-size: 30px;
+    width: 600px;
+    max-height: 800px;
+    min-height: 400px;
+    gap: 60px;
+  }
+  .card-title {
+    font-size: 35px;
+  }
+  .card-text {
+    font-size: 25px;
+  }
+  .img-promo {
+    width: 800px;
+    height: auto;
+    border: solid 3px var(--black);
+  }
+  /* Estilo para criar a ponta do balão */
+  .balao-fala {
+    position: relative;
+    display: inline-block; /* Faz a caixa ajustar ao tamanho do texto */
+    min-width: 300px; /* Define uma largura máxima */
+    max-width: 600px;
+    background: var(--white) !important;
+    color: var(--black) !important ;
+    font-size: 28px;
+  }
+
+  /* Criando o triângulo apontando para baixo */
+  .balao-fala::after {
+    content: "";
+    position: absolute;
+    bottom: -10px; /* Joga a ponta para fora da caixa na parte de baixo */
+    left: 20px; /* Distância do canto esquerdo */
+    border-width: 10px 10px 0 10px;
+    border-style: solid;
+    /* A cor aqui deve ser IGUAL à cor de fundo do seu balão */
+    border-color: var(--white) transparent transparent transparent;
+  }
+  .btn-promo {
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    letter-spacing: 1px;
+    height: max-content;
+    width: 600px;
+    background: var(--garantir);
+    border: solid 5px var(--black-15);
+    border-radius: 50px;
+  }
+  .btn-promo:hover {
+    background: var(--garantir-hover);
+    color: var(--black);
+    transform: scale(1.05);
+  }
+}
+
+/* ============================== */
+
+.section-servico-1 {
+  background-image:
+    linear-gradient(#000000bf, #00000066), url(imagens/bg-academia-secao3.png);
+}
+.section-servico-2 {
+}
+.section-servico-3 {
+}
+
+/* ============================== */
+
+.titulo {
+  background: var(--black-15);
+  border: solid 3px var(--white);
+  width: 500px;
+  height: 100px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 50px;
+  color: var(--primary);
+  border-radius: 100px;
+}
 .texto-principal {
   color: var(--black);
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
@@ -169,11 +333,17 @@ header {
   letter-spacing: 1px;
   text-shadow: 2px 2px 2px var(--black);
 }
+.texto-info {
+  font-size: 30px;
+  color: var(--white);
+}
 .texto-descricao {
   font-size: 20px;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   padding: 10px;
 }
+
+/* ============================== */
 
 footer {
   .nav-link {
