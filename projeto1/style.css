@@ -85,7 +85,8 @@ header {
 .section-servico-5,
 .section-produtos-1,
 .section-produtos-2,
-.section-produtos-3 {
+.section-produtos-3,
+.section-fale-forms {
   width: 100%;
   min-height: 100vh;
   height: auto;
@@ -337,14 +338,6 @@ header {
     letter-spacing: 1px;
   }
 }
-.section-servico-2 {
-}
-.section-servico-3 {
-}
-.section-servico-4 {
-}
-.section-servico-5 {
-}
 
 /* ============================== */
 
@@ -390,6 +383,21 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+/* ============================== */
+
+.section-fale-forms {
+  background-image:
+    linear-gradient(#000000bf, #00000066), url(imagens/bg-academia-secao2.png);
+  .card {
+    background: var(--silver);
+    color: var(--black);
+    border: solid 3px var(--secundary);
+    box-shadow: 3px 3px 2px var(--secundary-light);
+    max-width: 80vw;
+    height: fit-content;
+  }
 }
 
 /* ============================== */
