@@ -19,7 +19,7 @@
     <style type="text/css">
       @import url(style.css);
     </style>
-    <title>Academia Alta Forma | Nossa Academia</title>
+    <title>Academia Alta Forma | Nossos Serviços</title>
   </head>
   <body>
     <header>
@@ -60,7 +60,9 @@
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="#">Nossos Produtos</a>
+                <a class="nav-link active" href="produtos.html#produtos"
+                  >Nossos Produtos</a
+                >
               </li>
               <li class="nav-item">
                 <a class="nav-link active" href="#">Fale Conosco</a>
@@ -79,305 +81,488 @@
         </div>
       </nav>
     </header>
-    <section class="section-servico-1" id="nossos-servicos">
-      <div class="d-flex align-items-center justify-content-center pt-5">
-        <h1 class="titulo text-center p-3">Nossos Serviços</h1>
-      </div>
-      <div class="row d-flex justify-content-center text-center pt-3 m-0">
-        <div class="col-md-4">
-          <h2 class="fs-2">
-            <a href="servico.html#musculacao" class="texto-servico"
-              >Musculação</a
-            >
-          </h2>
-          <a href="servico.html#musculacao" class=""
-            ><img
+    <main>
+      <section class="section-servico-1" id="nossos-servicos">
+        <div class="d-flex align-items-center justify-content-center pt-5">
+          <h1 class="titulo text-center p-3">Nossos Serviços</h1>
+        </div>
+        <div class="row d-flex justify-content-center text-center pt-3 m-0">
+          <div class="col-md-4">
+            <h2 class="fs-2">
+              <a href="servico.html#musculacao" class="texto-servico"
+                >Musculação</a
+              >
+            </h2>
+            <a href="servico.html#musculacao" class=""
+              ><img
+                src="imagens/servico-musculacao-secao1.jpg"
+                alt=""
+                class="img-fluid img-servicos rounded-5"
+            /></a>
+          </div>
+          <div class="col-md-4">
+            <h2 class="fs-2">
+              <a href="servico.html#crossfit" class="texto-servico">Crossfit</a>
+            </h2>
+            <a href="servico.html#crossfit" class=""
+              ><img
+                src="imagens/servico-crossfit-secao1.jpg"
+                alt=""
+                class="img-fluid img-servicos rounded-5"
+            /></a>
+          </div>
+        </div>
+        <div class="row d-flex justify-content-center text-center pt-3 m-0">
+          <div class="col-md-4">
+            <h2 class="fs-2">
+              <a href="servico.html#pilates" class="texto-servico">Pilates</a>
+            </h2>
+            <a href="servico.html#pilates" class=""
+              ><img
+                src="imagens/servico-pilates-secao1.jpg"
+                alt=""
+                class="img-fluid img-servicos rounded-5"
+            /></a>
+          </div>
+          <div class="col-md-4">
+            <h2 class="fs-2">
+              <a href="servico.html#zumba" class="texto-servico">Zumba</a>
+            </h2>
+            <a href="servico.html#zumba" class=""
+              ><img
+                src="imagens/servico-zumba-secao1.png"
+                alt=""
+                class="img-fluid img-servicos rounded-5"
+            /></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-servico-2" id="musculacao">
+        <div class="d-flex align-items-center justify-content-center pt-5">
+          <h1 class="titulo text-center p-3">Musculação</h1>
+        </div>
+        <div class="row justify-content-center text-center pt-5 m-0">
+          <div class="col-md-auto align-items-center d-flex pt-5">
+            <div class="m-auto justify-content-center">
+              <ul class="card list-group text-end">
+                <li class="list-group-item">Ganho de massa muscular</li>
+                <li class="list-group-item">Aumento da força física</li>
+                <li class="list-group-item">Queima de gordura</li>
+                <li class="list-group-item">Saúde cardiovascular</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-auto pt-5">
+            <img
               src="imagens/servico-musculacao-secao1.jpg"
               alt=""
-              class="img-fluid img-servicos rounded-5"
-          /></a>
+              class="img-fluid img-servicos rounded-5 m-2"
+            />
+          </div>
+          <div class="col-md-auto align-items-center d-flex pt-5">
+            <div class="m-auto justify-content-center">
+              <ul class="card list-group text-start">
+                <li class="list-group-item">Fortalece articulações</li>
+                <li class="list-group-item">Mais disposição e energia</li>
+                <li class="list-group-item">Autoestima e bem-estar</li>
+                <!-- Tópico "Saiba mais" que aciona o modal -->
+                <li class="list-group-item">
+                  <button
+                    type="button"
+                    class="btn text-decoration-none p-0"
+                    data-bs-toggle="modal"
+                    data-bs-target="#modalSaibaMais"
+                  >
+                    Saiba mais ➤
+                  </button>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Modal (Card que abre por cima de tudo) -->
+            <div
+              class="modal fade"
+              id="modalSaibaMais"
+              tabindex="-1"
+              aria-labelledby="modalSaibaMaisLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content shadow">
+                  <div class="modal-header bg-dark text-white">
+                    <h5 class="modal-title" id="modalSaibaMaisLabel">
+                      Detalhes Completos do Projeto
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close btn-close-white"
+                      data-bs-dismiss="modal"
+                      aria-label="Fechar"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <h6 class="fw-bold">Tecnologias Utilizadas:</h6>
+                    <ul>
+                      <li>Front-end: HTML5, CSS3, JavaScript e Bootstrap 5.</li>
+                      <li>Back-end: PHP 8.2 com framework Laravel.</li>
+                      <li>Banco de Dados: MySQL 8.0.</li>
+                    </ul>
+
+                    <hr />
+
+                    <h6 class="fw-bold">Equipe Alocada:</h6>
+                    <p>
+                      1 Gerente de Projetos, 2 Desenvolvedores Full-Stack, 1
+                      Designer UI/UX e 1 QA (Testador).
+                    </p>
+
+                    <hr />
+
+                    <h6 class="fw-bold">Observações Adicionais:</h6>
+                    <p>
+                      O projeto inclui 3 meses de suporte técnico gratuito após
+                      a entrega. Treinamento da equipe administrativa para uso
+                      do sistema também está incluso no escopo.
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-bs-dismiss="modal"
+                    >
+                      Fechar
+                    </button>
+                    <button type="button" class="btn btn-primary">
+                      Entrar em contato
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="col-md-4">
-          <h2 class="fs-2">
-            <a href="servico.html#crossfit" class="texto-servico">Crossfit</a>
-          </h2>
-          <a href="servico.html#crossfit" class=""
-            ><img
+      </section>
+
+      <section class="section-servico-3" id="crossfit">
+        <div class="d-flex align-items-center justify-content-center pt-5">
+          <h1 class="titulo text-center p-3">CrossFit</h1>
+        </div>
+        <div class="row justify-content-center text-center pt-5 m-0">
+          <div class="col-md-auto align-items-center d-flex pt-5">
+            <div class="m-auto justify-content-center">
+              <ul class="card list-group text-end">
+                <li class="list-group-item">Aumento da força física</li>
+                <li class="list-group-item">Queima de calorias</li>
+                <li class="list-group-item">Melhora cardiovascular</li>
+                <li class="list-group-item">Agilidade e coordenação</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-auto pt-5">
+            <img
               src="imagens/servico-crossfit-secao1.jpg"
               alt=""
-              class="img-fluid img-servicos rounded-5"
-          /></a>
+              class="img-fluid img-servicos rounded-5 m-2"
+            />
+          </div>
+          <div class="col-md-auto align-items-center d-flex pt-5">
+            <div class="m-auto justify-content-center">
+              <ul class="card list-group text-start">
+                <li class="list-group-item">Fortalecimento muscular</li>
+                <li class="list-group-item">Superação de limites</li>
+                <li class="list-group-item">Treinos dinâmicos</li>
+                <!-- Tópico "Saiba mais" que aciona o modal -->
+                <li class="list-group-item">
+                  <button
+                    type="button"
+                    class="btn text-decoration-none p-0"
+                    data-bs-toggle="modal"
+                    data-bs-target="#modalSaibaMais"
+                  >
+                    Saiba mais ➤
+                  </button>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Modal (Card que abre por cima de tudo) -->
+            <div
+              class="modal fade"
+              id="modalSaibaMais"
+              tabindex="-1"
+              aria-labelledby="modalSaibaMaisLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content shadow">
+                  <div class="modal-header bg-dark text-white">
+                    <h5 class="modal-title" id="modalSaibaMaisLabel">
+                      Detalhes Completos do Projeto
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close btn-close-white"
+                      data-bs-dismiss="modal"
+                      aria-label="Fechar"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <h6 class="fw-bold">Tecnologias Utilizadas:</h6>
+                    <ul>
+                      <li>Front-end: HTML5, CSS3, JavaScript e Bootstrap 5.</li>
+                      <li>Back-end: PHP 8.2 com framework Laravel.</li>
+                      <li>Banco de Dados: MySQL 8.0.</li>
+                    </ul>
+
+                    <hr />
+
+                    <h6 class="fw-bold">Equipe Alocada:</h6>
+                    <p>
+                      1 Gerente de Projetos, 2 Desenvolvedores Full-Stack, 1
+                      Designer UI/UX e 1 QA (Testador).
+                    </p>
+
+                    <hr />
+
+                    <h6 class="fw-bold">Observações Adicionais:</h6>
+                    <p>
+                      O projeto inclui 3 meses de suporte técnico gratuito após
+                      a entrega. Treinamento da equipe administrativa para uso
+                      do sistema também está incluso no escopo.
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-bs-dismiss="modal"
+                    >
+                      Fechar
+                    </button>
+                    <button type="button" class="btn btn-primary">
+                      Entrar em contato
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="row d-flex justify-content-center text-center pt-3 m-0">
-        <div class="col-md-4">
-          <h2 class="fs-2">
-            <a href="servico.html#pilates" class="texto-servico">Pilates</a>
-          </h2>
-          <a href="servico.html#pilates" class=""
-            ><img
+      </section>
+
+      <section class="section-servico-4" id="pilates">
+        <div class="d-flex align-items-center justify-content-center pt-5">
+          <h1 class="titulo text-center p-3">Pilates</h1>
+        </div>
+        <div class="row justify-content-center text-center pt-5 m-0">
+          <div class="col-md-auto align-items-center d-flex pt-5">
+            <div class="m-auto justify-content-center">
+              <ul class="card list-group text-end">
+                <li class="list-group-item">Melhora da postura</li>
+                <li class="list-group-item">Flexibilidade e mobilidade</li>
+                <li class="list-group-item">Fortalecimento muscular</li>
+                <li class="list-group-item">Menos estresse e tensão</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-auto pt-5">
+            <img
               src="imagens/servico-pilates-secao1.jpg"
               alt=""
-              class="img-fluid img-servicos rounded-5"
-          /></a>
+              class="img-fluid img-servicos rounded-5 m-2"
+            />
+          </div>
+          <div class="col-md-auto align-items-center d-flex pt-5">
+            <div class="m-auto justify-content-center">
+              <ul class="card list-group text-start">
+                <li class="list-group-item">Melhora do equilíbrio</li>
+                <li class="list-group-item">Alívio de dores</li>
+                <li class="list-group-item">Bem-estar e concentração</li>
+                <!-- Tópico "Saiba mais" que aciona o modal -->
+                <li class="list-group-item">
+                  <button
+                    type="button"
+                    class="btn text-decoration-none p-0"
+                    data-bs-toggle="modal"
+                    data-bs-target="#modalSaibaMais"
+                  >
+                    Saiba mais ➤
+                  </button>
+                </li>
+              </ul>
+            </div>
+            <!-- Modal (Card que abre por cima de tudo) -->
+            <div
+              class="modal fade"
+              id="modalSaibaMais"
+              tabindex="-1"
+              aria-labelledby="modalSaibaMaisLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content shadow">
+                  <div class="modal-header bg-dark text-white">
+                    <h5 class="modal-title" id="modalSaibaMaisLabel">
+                      Detalhes Completos do Projeto
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close btn-close-white"
+                      data-bs-dismiss="modal"
+                      aria-label="Fechar"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <h6 class="fw-bold">Tecnologias Utilizadas:</h6>
+                    <ul>
+                      <li>Front-end: HTML5, CSS3, JavaScript e Bootstrap 5.</li>
+                      <li>Back-end: PHP 8.2 com framework Laravel.</li>
+                      <li>Banco de Dados: MySQL 8.0.</li>
+                    </ul>
+
+                    <hr />
+
+                    <h6 class="fw-bold">Equipe Alocada:</h6>
+                    <p>
+                      1 Gerente de Projetos, 2 Desenvolvedores Full-Stack, 1
+                      Designer UI/UX e 1 QA (Testador).
+                    </p>
+
+                    <hr />
+
+                    <h6 class="fw-bold">Observações Adicionais:</h6>
+                    <p>
+                      O projeto inclui 3 meses de suporte técnico gratuito após
+                      a entrega. Treinamento da equipe administrativa para uso
+                      do sistema também está incluso no escopo.
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-bs-dismiss="modal"
+                    >
+                      Fechar
+                    </button>
+                    <button type="button" class="btn btn-primary">
+                      Entrar em contato
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="col-md-4">
-          <h2 class="fs-2">
-            <a href="servico.html#zumba" class="texto-servico">Zumba</a>
-          </h2>
-          <a href="servico.html#zumba" class=""
-            ><img
+      </section>
+      <section class="section-servico-5" id="zumba">
+        <div class="d-flex align-items-center justify-content-center pt-5">
+          <h1 class="titulo text-center p-3">Zumba</h1>
+        </div>
+        <div class="row justify-content-center text-center pt-5 m-0">
+          <div class="col-md-auto align-items-center d-flex pt-5">
+            <div class="m-auto justify-content-center">
+              <ul class="card list-group text-end">
+                <li class="list-group-item">Queima intensa de calorias</li>
+                <li class="list-group-item">Condicionamento físico</li>
+                <li class="list-group-item">Disposição e energia</li>
+                <li class="list-group-item">Menos estresse e ansiedade</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-auto pt-5">
+            <img
               src="imagens/servico-zumba-secao1.png"
               alt=""
-              class="img-fluid img-servicos rounded-5"
-          /></a>
-        </div>
-      </div>
-    </section>
-    <section class="section-servico-2" id="musculacao">
-      <div class="d-flex align-items-center justify-content-center pt-5">
-        <h1 class="titulo text-center p-3">Musculação</h1>
-      </div>
-      <div class="row justify-content-center text-center">
-        <div class="col-md-auto align-items-center d-flex pt-5">
-          <div class="card m-auto justify-content-center">
-            <ul class="list-group text-end">
-              <li class="list-group-item">Ganho de massa muscular</li>
-              <li class="list-group-item">Aumento da força física</li>
-              <li class="list-group-item">Queima de gordura</li>
-              <li class="list-group-item">Saúde cardiovascular</li>
-            </ul>
+              class="img-fluid img-servicos rounded-5 m-2"
+            />
           </div>
-        </div>
-        <div class="col-md-auto pt-5">
-          <img
-            src="imagens/servico-musculacao-secao1.jpg"
-            alt=""
-            class="img-fluid img-servicos rounded-5 m-2"
-          />
-        </div>
-        <div class="col-md-auto align-items-center d-flex pt-5">
-          <div class="card m-auto justify-content-center">
-            <ul class="list-group text-start">
-              <li class="list-group-item">&rarr; Fortalece articulações</li>
-              <li class="list-group-item">&rarr; Mais disposição e energia</li>
-              <li class="list-group-item">&rarr; Autoestima e bem-estar</li>
-              <!-- Tópico "Saiba mais" que aciona o modal -->
-              <li class="list-group-item">
-                <button
-                  type="button"
-                  class="btn text-decoration-none p-0"
-                  data-bs-toggle="modal"
-                  data-bs-target="#modalSaibaMais"
-                >
-                  &rarr; Saiba mais ➤
-                </button>
-              </li>
-            </ul>
-          </div>
-
-          <!-- Modal (Card que abre por cima de tudo) -->
-          <div
-            class="modal fade"
-            id="modalSaibaMais"
-            tabindex="-1"
-            aria-labelledby="modalSaibaMaisLabel"
-            aria-hidden="true"
-          >
-            <div class="modal-dialog modal-dialog-centered">
-              <div class="modal-content shadow">
-                <div class="modal-header bg-dark text-white">
-                  <h5 class="modal-title" id="modalSaibaMaisLabel">
-                    Detalhes Completos do Projeto
-                  </h5>
+          <div class="col-md-auto align-items-center d-flex pt-5">
+            <div class="m-auto justify-content-center">
+              <ul class="card list-group text-start">
+                <li class="list-group-item">Coordenação motora</li>
+                <li class="list-group-item">Fortalece músculos</li>
+                <li class="list-group-item">Diversão e motivação</li>
+                <!-- Tópico "Saiba mais" que aciona o modal -->
+                <li class="list-group-item">
                   <button
                     type="button"
-                    class="btn-close btn-close-white"
-                    data-bs-dismiss="modal"
-                    aria-label="Fechar"
-                  ></button>
-                </div>
-                <div class="modal-body">
-                  <h6 class="fw-bold">Tecnologias Utilizadas:</h6>
-                  <ul>
-                    <li>Front-end: HTML5, CSS3, JavaScript e Bootstrap 5.</li>
-                    <li>Back-end: PHP 8.2 com framework Laravel.</li>
-                    <li>Banco de Dados: MySQL 8.0.</li>
-                  </ul>
-
-                  <hr />
-
-                  <h6 class="fw-bold">Equipe Alocada:</h6>
-                  <p>
-                    1 Gerente de Projetos, 2 Desenvolvedores Full-Stack, 1
-                    Designer UI/UX e 1 QA (Testador).
-                  </p>
-
-                  <hr />
-
-                  <h6 class="fw-bold">Observações Adicionais:</h6>
-                  <p>
-                    O projeto inclui 3 meses de suporte técnico gratuito após a
-                    entrega. Treinamento da equipe administrativa para uso do
-                    sistema também está incluso no escopo.
-                  </p>
-                </div>
-                <div class="modal-footer">
-                  <button
-                    type="button"
-                    class="btn btn-secondary"
-                    data-bs-dismiss="modal"
+                    class="btn text-decoration-none p-0"
+                    data-bs-toggle="modal"
+                    data-bs-target="#modalSaibaMais"
                   >
-                    Fechar
+                    Saiba mais ➤
                   </button>
-                  <button type="button" class="btn btn-primary">
-                    Entrar em contato
-                  </button>
+                </li>
+              </ul>
+            </div>
+            <!-- Modal (Card que abre por cima de tudo) -->
+            <div
+              class="modal fade"
+              id="modalSaibaMais"
+              tabindex="-1"
+              aria-labelledby="modalSaibaMaisLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content shadow">
+                  <div class="modal-header bg-dark text-white">
+                    <h5 class="modal-title" id="modalSaibaMaisLabel">
+                      Detalhes Completos do Projeto
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close btn-close-white"
+                      data-bs-dismiss="modal"
+                      aria-label="Fechar"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <h6 class="fw-bold">Tecnologias Utilizadas:</h6>
+                    <ul>
+                      <li>Front-end: HTML5, CSS3, JavaScript e Bootstrap 5.</li>
+                      <li>Back-end: PHP 8.2 com framework Laravel.</li>
+                      <li>Banco de Dados: MySQL 8.0.</li>
+                    </ul>
+
+                    <hr />
+
+                    <h6 class="fw-bold">Equipe Alocada:</h6>
+                    <p>
+                      1 Gerente de Projetos, 2 Desenvolvedores Full-Stack, 1
+                      Designer UI/UX e 1 QA (Testador).
+                    </p>
+
+                    <hr />
+
+                    <h6 class="fw-bold">Observações Adicionais:</h6>
+                    <p>
+                      O projeto inclui 3 meses de suporte técnico gratuito após
+                      a entrega. Treinamento da equipe administrativa para uso
+                      do sistema também está incluso no escopo.
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-bs-dismiss="modal"
+                    >
+                      Fechar
+                    </button>
+                    <button type="button" class="btn btn-primary">
+                      Entrar em contato
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    <section class="section-servico-3" id="crossfit">
-      <div class="d-flex align-items-center justify-content-center pt-5">
-        <h1 class="titulo text-center p-3">CrossFit</h1>
-      </div>
-      <div class="row justify-content-center text-center pt-5">
-        <div class="col-md-auto align-items-center d-flex pt-5">
-          <div class="card m-auto justify-content-center">
-            <ul class="list-group text-end">
-              <li class="list-group-item">Aumento da força física</li>
-              <li class="list-group-item">Queima de calorias</li>
-              <li class="list-group-item">Melhora cardiovascular</li>
-              <li class="list-group-item">Agilidade e coordenação</li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-md-auto pt-5">
-          <img
-            src="imagens/servico-crossfit-secao1.jpg"
-            alt=""
-            class="img-fluid img-servicos rounded-5 m-2"
-          />
-        </div>
-        <div class="col-md-auto align-items-center d-flex pt-5">
-          <div class="card m-auto justify-content-center">
-            <ul class="list-group text-start">
-              <li class="list-group-item">Fortalecimento muscular</li>
-              <li class="list-group-item">Superação de limites</li>
-              <li class="list-group-item">Treinos dinâmicos</li>
-              <!-- Tópico "Saiba mais" que aciona o modal -->
-              <li class="list-group-item">
-                <button
-                  type="button"
-                  class="btn text-decoration-none p-0"
-                  data-bs-toggle="modal"
-                  data-bs-target="#modalSaibaMais"
-                >
-                  Saiba mais ➤
-                </button>
-              </li>
-            </ul>
-          </div>
-
-          <!-- Modal (Card que abre por cima de tudo) -->
-          <div
-            class="modal fade"
-            id="modalSaibaMais"
-            tabindex="-1"
-            aria-labelledby="modalSaibaMaisLabel"
-            aria-hidden="true"
-          >
-            <div class="modal-dialog modal-dialog-centered">
-              <div class="modal-content shadow">
-                <div class="modal-header bg-dark text-white">
-                  <h5 class="modal-title" id="modalSaibaMaisLabel">
-                    Detalhes Completos do Projeto
-                  </h5>
-                  <button
-                    type="button"
-                    class="btn-close btn-close-white"
-                    data-bs-dismiss="modal"
-                    aria-label="Fechar"
-                  ></button>
-                </div>
-                <div class="modal-body">
-                  <h6 class="fw-bold">Tecnologias Utilizadas:</h6>
-                  <ul>
-                    <li>Front-end: HTML5, CSS3, JavaScript e Bootstrap 5.</li>
-                    <li>Back-end: PHP 8.2 com framework Laravel.</li>
-                    <li>Banco de Dados: MySQL 8.0.</li>
-                  </ul>
-
-                  <hr />
-
-                  <h6 class="fw-bold">Equipe Alocada:</h6>
-                  <p>
-                    1 Gerente de Projetos, 2 Desenvolvedores Full-Stack, 1
-                    Designer UI/UX e 1 QA (Testador).
-                  </p>
-
-                  <hr />
-
-                  <h6 class="fw-bold">Observações Adicionais:</h6>
-                  <p>
-                    O projeto inclui 3 meses de suporte técnico gratuito após a
-                    entrega. Treinamento da equipe administrativa para uso do
-                    sistema também está incluso no escopo.
-                  </p>
-                </div>
-                <div class="modal-footer">
-                  <button
-                    type="button"
-                    class="btn btn-secondary"
-                    data-bs-dismiss="modal"
-                  >
-                    Fechar
-                  </button>
-                  <button type="button" class="btn btn-primary">
-                    Entrar em contato
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="section-servico-4" id="pilates">
-      <div class="d-flex align-items-center justify-content-center pt-5">
-        <h1 class="titulo text-center p-3">Pilates</h1>
-      </div>
-      <div class="row justify-content-center text-center pt-5">
-        <div class="col-md-2 bg-info"></div>
-        <div class="col-md-auto">
-          <img
-            src="imagens/servico-pilates-secao1.jpg"
-            alt=""
-            class="img-fluid img-servicos rounded-5 m-2"
-          />
-        </div>
-        <div class="col-md-2 bg-info">3 of 3</div>
-      </div>
-    </section>
-    <section class="section-servico-5" id="zumba">
-      <div class="d-flex align-items-center justify-content-center pt-5">
-        <h1 class="titulo text-center p-3">Zumba</h1>
-      </div>
-      <div class="row justify-content-center text-center pt-5">
-        <div class="col-md-2 bg-info"></div>
-        <div class="col-md-auto">
-          <img
-            src="imagens/servico-zumba-secao1.png"
-            alt=""
-            class="img-fluid img-servicos rounded-5 m-2"
-          />
-        </div>
-        <div class="col-md-2 bg-info">3 of 3</div>
-      </div>
-    </section>
+      </section>
+    </main>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
