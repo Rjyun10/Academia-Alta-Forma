@@ -382,6 +382,9 @@ header {
     color: var(--silver);
     transform: scale(1.05);
   }
+  .modal {
+    font-weight: 600;
+  }
 }
 .section-produtos-3 {
   background-image:

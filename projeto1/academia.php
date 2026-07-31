@@ -123,9 +123,9 @@
         <div
           class="d-flex justify-content-center align-items-center m-0 pb-5 p-3"
         >
-          <button class="btn btn-promo" type="button">
+          <a class="btn btn-promo" type="button" href="faleconosco.php#forms">
             Garantir meu Treino Grátis
-          </button>
+          </a>
         </div>
       </section>
     </main>

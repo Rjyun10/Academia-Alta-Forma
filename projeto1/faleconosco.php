@@ -85,6 +85,7 @@
                 <option value="financeiro">Financeiro / Cobrança</option>
                 <option value="reclamacoes">Reclamações ou Sugestões</option>
                 <option value="parcerias">Parcerias / Comercial</option>
+                <option value="teste">Treino Grátis</option>
               </select>
             </div>
             <div class="mb-3">
