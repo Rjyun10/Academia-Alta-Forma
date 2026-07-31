@@ -117,7 +117,7 @@
                     data-bs-toggle="modal"
                     data-bs-target="#modalMusculacao"
                   >
-                    Saiba mais ➤
+                    Mini Guia ➤
                   </button>
                 </li>
               </ul>
@@ -228,7 +228,7 @@
                     data-bs-toggle="modal"
                     data-bs-target="#modalCrossfit"
                   >
-                    Saiba mais ➤
+                    Mini Guia ➤
                   </button>
                 </li>
               </ul>
@@ -340,7 +340,7 @@
                     data-bs-toggle="modal"
                     data-bs-target="#modalPilates"
                   >
-                    Saiba mais ➤
+                    Mini Guia ➤
                   </button>
                 </li>
               </ul>
@@ -449,7 +449,7 @@
                     data-bs-toggle="modal"
                     data-bs-target="#modalZumba"
                   >
-                    Saiba mais ➤
+                    Mini Guia ➤
                   </button>
                 </li>
               </ul>
