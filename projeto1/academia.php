@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="icon"
+      href="imagens/logo.png"
+      sizes="32x32"
+      type="image/png"
+      class="favicon"
+    />
+    <style type="text/css">
+      @import url(style.css);
+    </style>
+    <title>Academia Alta Forma | Nossa Academia</title>
+  </head>
+  <body>
+    <?php include("includes/header.php");?>
+
+    <main>
+      <section class="section-academia-1" id="nossa-academia">
+        <div class="d-flex align-items-center justify-content-center pt-5">
+          <h1 class="titulo text-center p-3">Nossa Academia</h1>
+        </div>
+        <div class="row justify-content-center align-items-center p-5 m-0">
+          <div class="col-md-6">
+            <img
+              src="imagens/academia-fundacao.png"
+              alt=""
+              class="img-fluid rounded d-flex my-3"
+            />
+          </div>
+          <div class="col-md-6">
+            <img
+              src="imagens/academia-info.png"
+              alt=""
+              class="img-fluid rounded d-flex my-3"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="section-academia-2" id="proposito">
+        <div class="d-flex align-items-center justify-content-center pt-5">
+          <h1 class="titulo text-center p-3">Nosso Propósito</h1>
+        </div>
+        <div class="row text-center d-flex justify-content-center pt-2 m-0">
+          <div class="col-md-3">
+            <img
+              src="imagens/missao.png"
+              alt=""
+              class="img-fluid img-prop mb-3"
+            />
+            <h3 class="titulo-prop">Missão</h3>
+            <p class="texto-info pt-3 m-5">
+              Transformar vidas através da
+              <span class="texto-azul">saúde, disciplina e motivação</span>
+              diária.
+            </p>
+          </div>
+          <div class="col-md-3">
+            <img
+              src="imagens/visao.png"
+              alt=""
+              class="img-fluid img-prop mb-3"
+            />
+            <h3 class="titulo-prop">Visão</h3>
+            <p class="texto-info pt-3 m-5">
+              Ser <span class="texto-azul">referência</span> fitness em São
+              Paulo com <span class="texto-azul">excelência</span> e
+              <span class="texto-azul">inovação</span>.
+            </p>
+          </div>
+          <div class="col-md-3">
+            <img
+              src="imagens/valores.png"
+              alt=""
+              class="img-fluid img-prop mb-3"
+            />
+            <h3 class="titulo-prop">Valores</h3>
+            <ul class="estilo-lista py-3">
+              <li>Disciplina</li>
+              <li>Saúde</li>
+              <li>Respeito</li>
+              <li>Superação</li>
+              <li>Inovação</li>
+              <li>Excelência</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="section-academia-3" id="experimentacao">
+        <div
+          class="row d-flex align-items-center justify-content-center px-5 pt-5 m-0 gap-5"
+        >
+          <div class="col-md-4 card p-3 my-5 pt-5">
+            <h5 class="card-title">Nossa missão é o seu equilíbrio.</h5>
+            <p class="card-text">
+              Na Alta Forma, cuidamos de você por inteiro. Um espaço dedicado a
+              fortalecer seu corpo e renovar sua energia, todos os dias.
+            </p>
+          </div>
+          <div class="col-md-4 my-5">
+            <div
+              class="balao-fala bg-dark text-white p-2 rounded-4 shadow-sm mb-3"
+            >
+              Seja bem-vindo à nossa academia. Sabia que o primeira treino é
+              GRÁTIS ?
+            </div>
+            <img
+              src="imagens/promo.png"
+              alt=""
+              class="img-fluid rounded img-promo"
+            />
+          </div>
+        </div>
+        <div
+          class="d-flex justify-content-center align-items-center m-0 pb-5 p-3"
+        >
+          <button class="btn btn-promo" type="button">
+            Garantir meu Treino Grátis
+          </button>
+        </div>
+      </section>
+    </main>
+    <?php include("includes/footer.php");?>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
