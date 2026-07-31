@@ -312,8 +312,11 @@ header {
     box-shadow: 0 0 5px var(--primary-light);
   }
   .texto-servico {
+    font-family:
+      Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif !important;
     text-decoration: none;
     color: var(--primary-light);
+    text-shadow: 2px 2px 2px var(--secundary);
   }
 }
 .section-servico-2,
@@ -336,6 +339,9 @@ header {
     color: var(--black);
     font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
     letter-spacing: 1px;
+  }
+  .modal {
+    font-weight: 600;
   }
 }
 
