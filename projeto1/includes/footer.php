@@ -1,7 +1,6 @@
 <footer>
   <div
-    class="row justify-content-center d-flex text-center align-items-center pt-3 m-0 pb-3 fundo-parcerias"
-  >
+    class="row justify-content-center d-flex text-center align-items-center pt-3 m-0 pb-3 fundo-parcerias">
     <div class="col-md-2">
       <a href="https://www.gsuplementos.com.br/" target="_blank">
         <img src="./imagens/Growth.png" alt="Logo da Growth" class="img-fluid"
@@ -43,7 +42,7 @@
     </div>
   </div>
   <div class="row justify-content-center d-flex text-center m-0 fundo-footer">
-    <div class="col-md-3 py-2 m-0">
+    <div class="col-xxl-3 py-2 m-0">
       <div class="bg-img-logo">
         <a href="index.php#home">
           <img
@@ -59,7 +58,7 @@
       </div>
       <div class="card mt-3 card-redes">
         <h3 class="texto-secundario">Siga nas Redes Socias !</h3>
-        <ul class="list-unstyled mb-0 text-start ps-3">
+        <ul class="list-unstyled mb-3 text-start ps-3">
           <li class="d-flex align-items-center mb-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -108,17 +107,8 @@
             >
           </li>
           <li class="d-flex align-items-center mb-2">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="32"
-              height="32"
-              fill="currentColor"
-              class="bi bi-linkedin"
-              viewBox="0 0 16 16"
-            >
-              <path
-                d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"
-              />
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+              <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
             </svg>
             <a class="redes-sociais ps-2" href=""
               >linkedin.com/company/altaforma-fit</a
@@ -159,7 +149,7 @@
         </ul>
       </div>
     </div>
-    <div class="col-md-3 py-2 m-0 my-auto">
+    <div class="col-xxl-3 py-2 m-0 my-auto">
       <h2 class="fs-3">Menu</h2>
       <ul class="nav flex-column">
         <li class="nav-item">
@@ -183,7 +173,7 @@
         </li>
       </ul>
     </div>
-    <div class="col-md-3 py-2 m-0 my-auto">
+    <div class="col-xxl-3 py-2 m-0 my-auto">
       <h2 class="fs-3">Lojas na Região</h2>
       <p class="">
         Endereço:
@@ -204,7 +194,7 @@
           class="img-fluid img-maps"
       /></a>
     </div>
-    <div class="col-md-3 py-2 m-0 my-auto">
+    <div class="col-xxl-3 py-2 m-0 my-auto">
       <h2 class="fs-3">Horário de Funcionamento</h2>
       <ul class="list-unstyled">
         <li><strong>Segundas - Sextas:</strong> 6:00 - 22:00</li>
