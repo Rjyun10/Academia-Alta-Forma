@@ -392,6 +392,25 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  .card {
+    width: clamp(300px, 30vw, 500px);
+    min-height: 650px;
+    height: auto;
+  }
+  .btn-detalhes {
+    background: var(--primary);
+    color: var(--white);
+    text-shadow: 1px 1px 3px var(--black);
+    border: solid 2px var(--black);
+  }
+  .btn-detalhes:hover {
+    background: var(--secundary-light);
+    color: var(--silver);
+    transform: scale(1.05);
+  }
+  .modal {
+    font-weight: 600;
+  }
 }
 
 /* ============================== */

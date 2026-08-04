@@ -74,8 +74,7 @@
       </section>
       <section class="section-produtos-2" id="suplementos">
         <div
-          class="row d-flex justify-content-center align-items-center p-5 gap-5 m-0"
-        >
+          class="row d-flex justify-content-center align-items-center p-5 gap-5 m-0">
           <div class="col-md-3 m-2">
             <div class="card">
               <img
@@ -427,7 +426,194 @@
           </div>
         </div>
       </section>
-      <section class="section-produtos-3" id="moda"></section>
+      <section class="section-produtos-3" id="moda">
+        <div
+          class="row d-flex justify-content-center align-items-center p-5 gap-5 m-0">
+          <div class="col-md-3 m-2">
+            <div class="card">
+              <img src="imagens/produto-moda-1.png" alt="Leggings de Compressão Sem Costura Premium" class="card-img-top">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">
+                  Leggings Seamless High-Waisted
+                </h5>
+                <p class="card-text">
+                  Desenvolvida com tecnologia de ponta e materiais sustentáveis, esta jaqueta corta-vento une alta performance e consciência ecológica. Seu tecido técnico super leve oferece proteção avançada contra correntes de ar e intempéries, garantindo o máximo de conforto térmico, respirabilidade e liberdade de movimentos durante suas trilhas, corridas ou composições de estilo casual esportivo.
+                </p>
+                <button type="button" class="btn btn-detalhes mt-auto" data-bs-toggle="modal" data-bs-target="#modalDetProdutoModa1">
+                  Ver detalhes
+                </button>
+                <div class="modal fade" id="modalDetProdutoModa1" tabindex="-1" aria-labelledby="modalDetProdutoModa1Label" aria-hidden="true">
+                  <!-- Adicionado 'modal-lg' para deixar o modal maior em desktops e mantido 'modal-dialog-centered' -->
+                  <div class="modal-dialog modal-lg modal-dialog-centered">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="modalDetProdutoModa1Label">Leggings de Compressão Sem Costura Premium</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="row">
+                          <!-- Coluna da Esquerda: Imagens -->
+                          <div class="col-md-6 d-flex align-items-center justify-content-center">
+                            <img src="imagens/produto-moda-1.png" class="img-fluid rounded" alt="Leggings de Compressão Premium">
+                          </div>
+                          <!-- Coluna da Direita: Informações e Ações -->
+                          <div class="col-md-6 d-flex flex-column">
+                            <span class="text-muted">Código: 1 | Categoria: Moda Fitness & Athleisure</span>
+                            <h3 class="text-success mt-2">R$ 74,90</h3>
+                            
+                            <!-- Informações detalhadas adicionadas -->
+                            <hr class="my-2">
+                            <p class="mb-2"><strong>Destaques:</strong></p>
+                            <ul class="small text-muted ps-3 mb-3">
+                              <li>Tecnologia sem costuras laterais para zero atrito</li>
+                              <li>Efeito modelador (*shapewear*) que valoriza a silhueta</li>
+                              <li>Cintura alta para suporte abdominal reforçado</li>
+                              <li>Tecido fosco de toque ultra macio e aconchegante</li>
+                              <li>Sensação de segunda pele com alta respirabilidade</li>
+                              <li>Design minimalista em cores neutras e sofisticadas</li>
+                            </ul>
+
+                            <p class="small text-muted mb-3">
+                              Desenvolvida para transitar perfeitamente entre os treinos mais intensos e o conforto do dia a dia, unindo estética de luxo e alta performance.
+                            </p>
+                            
+                            <!-- Ações -->
+                            <div class="mt-auto">
+                              <a href="#" target="_blank" class="btn btn-detalhes w-100 mb-2 disabled" tabindex="-1" aria-disabled="true">Ver na Loja Oficial</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 m-2">
+            <div class="card">
+              <img src="imagens/produto-moda-2.png" alt="Jaqueta Corta-Vento Reciclada Premium" class="card-img-top">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">
+                  Jaqueta Corta-Vento Premium
+                </h5>
+                <p class="card-text">
+                  Projetada para elevar sua performance e autoestima, esta legging combina a tecnologia seamless (sem costuras) com uma compressão inteligente que molda a silhueta de forma natural. Com toque ultra macio, efeito segunda pele e cintura alta de suporte reforçado, ela elimina o atrito com a pele e transita perfeitamente entre os treinos mais intensos e o conforto do seu dia a dia.
+                </p>
+                <button type="button" class="btn btn-detalhes mt-auto" data-bs-toggle="modal" data-bs-target="#modalDetProdutoModa2">
+                  Ver detalhes
+                </button>
+                <div class="modal fade" id="modalDetProdutoModa2" tabindex="-1" aria-labelledby="modalDetProdutoModa2Label" aria-hidden="true">
+                  <!-- Adicionado 'modal-lg' para deixar o modal maior em desktops e mantido 'modal-dialog-centered' -->
+                  <div class="modal-dialog modal-lg modal-dialog-centered">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="modalDetProdutoModa2Label">Jaqueta Corta-Vento Reciclada Premium</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="row">
+                          <!-- Coluna da Esquerda: Imagens -->
+                          <div class="col-md-6 d-flex align-items-center justify-content-center">
+                            <img src="imagens/produto-moda-2.png" class="img-fluid rounded" alt="Jaqueta Corta-Vento Premium">
+                          </div>
+                          <!-- Coluna da Direita: Informações e Ações -->
+                          <div class="col-md-6 d-flex flex-column">
+                            <span class="text-muted">Código: 2 | Categoria: Esporte & Aventura</span>
+                            <h3 class="text-success mt-2">R$ 99,90</h3>
+                            
+                            <!-- Informações detalhadas adicionadas -->
+                            <hr class="my-2">
+                            <p class="mb-2"><strong>Destaques:</strong></p>
+                            <ul class="small text-muted ps-3 mb-3">
+                              <li>Material sustentável de alta qualidade (reciclado)</li>
+                              <li>Tecido técnico extremamente leve</li>
+                              <li>Estilo atlético moderno e versátil</li>
+                              <li>Alta resistência ao vento</li>
+                              <li>Conforto térmico ideal para atividades ao ar livre</li>
+                              <li>Design focado em mobilidade dinâmica</li>
+                            </ul>
+
+                            <p class="small text-muted mb-3">
+                              Desenvolvida com foco em sustentabilidade e performance avançada. Perfeita para trilhas, corridas e composições de estilo casual esportivo.
+                            </p>
+                            
+                            <!-- Ações -->
+                            <div class="mt-auto">
+                              <a href="#" target="_blank" class="btn btn-detalhes w-100 mb-2 disabled" tabindex="-1" aria-disabled="true">Ver na Loja Oficial</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 m-2">
+            <div class="card">
+              <img src="imagens/produto-moda-3.png" alt="Calça Jogger de Alfaiataria Esportiva Premium" class="card-img-top">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">
+                  Calça Jogger Athleisure
+                </h5>
+                <p class="card-text">
+                  O encontro definitivo entre a elegância da alfaiataria clássica e a flexibilidade do vestuário esportivo. Esta calça jogger foi criada para a rotina dinâmica de quem precisa de versatilidade, contando com um tecido elástico de alta respirabilidade, caimento impecável e um design moderno que garante sofisticação e conforto absoluto em qualquer ambiente.
+                </p>
+                <button type="button" class="btn btn-detalhes mt-auto" data-bs-toggle="modal" data-bs-target="#modalDetProdutoModa3">
+                  Ver detalhes
+                </button>
+                <div class="modal fade" id="modalDetProdutoModa3" tabindex="-1" aria-labelledby="modalDetProdutoModa3Label" aria-hidden="true">
+                  <!-- Adicionado 'modal-lg' para deixar o modal maior em desktops e mantido 'modal-dialog-centered' -->
+                  <div class="modal-dialog modal-lg modal-dialog-centered">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="modalDetProdutoModa3Label">Calça Jogger de Alfaiataria Esportiva Premium</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="row">
+                          <!-- Coluna da Esquerda: Imagens -->
+                          <div class="col-md-6 d-flex align-items-center justify-content-center">
+                            <img src="imagens/produto-moda-3.png" class="img-fluid rounded" alt="Calça Jogger Athleisure">
+                          </div>
+                          <!-- Coluna da Direita: Informações e Ações -->
+                          <div class="col-md-6 d-flex flex-column">
+                            <span class="text-muted">Código: 3 | Categoria: Urban Athleisure</span>
+                            <h3 class="text-success mt-2">R$ 114,90</h3>
+                            
+                            <!-- Informações detalhadas adicionadas -->
+                            <hr class="my-2">
+                            <p class="mb-2"><strong>Destaques:</strong></p>
+                            <ul class="small text-muted ps-3 mb-3">
+                              <li>Corte de alfaiataria com caimento elegante e moderno</li>
+                              <li>Tecido elástico de alta tecnologia e respirabilidade</li>
+                              <li>Design versátil para transição entre o trabalho e o lazer</li>
+                              <li>Toque macio e caimento impecável</li>
+                              <li>Liberdade total de movimentos para rotinas dinâmicas</li>
+                              <li>Estética de luxo voltada para o conceito *athleisure*</li>
+                            </ul>
+
+                            <p class="small text-muted mb-3">
+                              Projetada especialmente para profissionais que buscam elegância no ambiente de negócios sem abrir mão da praticidade e do conforto do universo esportivo.
+                            </p>
+                            
+                            <!-- Ações -->
+                            <div class="mt-auto">
+                              <a href="#" target="_blank" class="btn btn-detalhes w-100 mb-2 disabled" tabindex="-1" aria-disabled="true">Ver na Loja Oficial</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     <?php include("includes/footer.php");?>
 

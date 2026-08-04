@@ -26,9 +26,8 @@
 
     <main>
       <section
-        class="section-fale-forms justify-content-center align-items-center d-flex"
-        id="forms"
-      >
+        class="section-fale-forms justify-content-center align-items-center d-flex p-5"
+        id="forms">
         <div class="card p-4">
           <h3 class="mb-4 text-center">Fale Conosco</h3>
           <form action="">

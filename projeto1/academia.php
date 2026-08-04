@@ -27,17 +27,17 @@
     <main>
       <section class="section-academia-1" id="nossa-academia">
         <div class="d-flex align-items-center justify-content-center pt-5">
-          <h1 class="titulo text-center p-3">Nossa Academia</h1>
+          <h1 class="titulo text-center py-3">Nossa Academia</h1>
         </div>
         <div class="row justify-content-center align-items-center p-5 m-0">
-          <div class="col-md-6">
+          <div class="col-lg-6">
             <img
               src="imagens/academia-fundacao.png"
               alt=""
               class="img-fluid rounded d-flex my-3"
             />
           </div>
-          <div class="col-md-6">
+          <div class="col-lg-6">
             <img
               src="imagens/academia-info.png"
               alt=""
@@ -48,10 +48,10 @@
       </section>
       <section class="section-academia-2" id="proposito">
         <div class="d-flex align-items-center justify-content-center pt-5">
-          <h1 class="titulo text-center p-3">Nosso Propósito</h1>
+          <h1 class="titulo text-center py-3">Nosso Propósito</h1>
         </div>
         <div class="row text-center d-flex justify-content-center pt-2 m-0">
-          <div class="col-md-3">
+          <div class="col-lg-3">
             <img
               src="imagens/missao.png"
               alt=""
@@ -64,7 +64,7 @@
               diária.
             </p>
           </div>
-          <div class="col-md-3">
+          <div class="col-lg-3">
             <img
               src="imagens/visao.png"
               alt=""
@@ -77,7 +77,7 @@
               <span class="texto-azul">inovação</span>.
             </p>
           </div>
-          <div class="col-md-3">
+          <div class="col-lg-3">
             <img
               src="imagens/valores.png"
               alt=""
@@ -108,7 +108,7 @@
           </div>
           <div class="col-md-4 my-5">
             <div
-              class="balao-fala bg-dark text-white p-2 rounded-4 shadow-sm mb-3"
+              class="balao-fala bg-dark text-white p-2 rounded-4 mb-3"
             >
               Seja bem-vindo à nossa academia. Sabia que o primeira treino é
               GRÁTIS ?

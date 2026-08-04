@@ -94,7 +94,7 @@
         <div class="row m-0">
           <div class="col-md-6">
             <div class="px-5 pb-2">
-              <a href="servico.html#musculacao" class="text-decoration-none"
+              <a href="servico.php#musculacao" class="text-decoration-none"
                 ><h1 class="text-uppercase texto-principal pt-3">
                   musculação
                 </h1></a
@@ -126,7 +126,7 @@
           </div>
           <div class="col-md-6">
             <div class="px-5 pb-2">
-              <a href="servico.html#zumba" class="text-decoration-none"
+              <a href="servico.php#zumba" class="text-decoration-none"
                 ><h1 class="text-uppercase texto-principal pt-3">zumba</h1></a
               >
               <div
@@ -157,7 +157,7 @@
           </div>
           <div class="col-md-6">
             <div class="px-5 pb-2">
-              <a href="servico.html#crossfit" class="text-decoration-none"
+              <a href="servico.php#crossfit" class="text-decoration-none"
                 ><h1 class="text-uppercase texto-principal pt-3">
                   crossfit
                 </h1></a
@@ -190,7 +190,7 @@
           </div>
           <div class="col-md-6">
             <div class="px-5 pb-2">
-              <a href="servico.html#pilates" class="text-decoration-none"
+              <a href="servico.php#pilates" class="text-decoration-none"
                 ><h1 class="text-uppercase texto-principal pt-3">pilates</h1></a
               >
               <div
